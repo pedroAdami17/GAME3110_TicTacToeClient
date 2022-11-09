@@ -6,13 +6,14 @@ using UnityEngine.Networking;
 
 public class NetworkedClient : MonoBehaviour
 {
+    //public static NetworkedClient Instance;
 
     int connectionID;
     int maxConnections = 1000;
     int reliableChannelID;
     int unreliableChannelID;
     int hostID;
-    int socketPort = 5491;
+    int socketPort = 5492;
     byte error;
     bool isConnected = false;
     int ourClientID;
